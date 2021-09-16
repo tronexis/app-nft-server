@@ -1,0 +1,21 @@
+{
+  "name": "app-nft-server",
+  "version": "0.1.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --es-module-specifier-resolution=node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "cors": "^2.8.5",
+    "koa": "^2.13.1",
+    "koa-static": "^5.0.0"
+  }
+}
